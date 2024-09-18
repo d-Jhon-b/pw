@@ -1,0 +1,53 @@
+/* Seção Hero para a página de Estudo de Caso */
+header {
+    background-color: #001f3f;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.case-hero {
+    background-color: #0061A8;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+ }
+ .case-hero h2 {
+    font-size: 2.5rem;
+     
+ }
+ .container-header{
+   width: 100%;
+   display: flex;  
+   justify-content: space-between;
+  
+ }
+ .container-logo-texto{
+   display: flex;
+   height: 70px
+ }
+ .container-header h1{
+   margin-right: 10px;
+ }
+
+ .case-hero p {
+    font-size: 1.25rem;
+ }
+ .case-hero 
+ {
+   display: flexbox;
+   justify-content: center;
+   align-items: center;
+   
+ }
+ 
+ .case-details .container{
+   justify-content: center;
+   align-items: center;
+ 
+ }
+ 
+
+ /*responsividade estudo de casos */
+
