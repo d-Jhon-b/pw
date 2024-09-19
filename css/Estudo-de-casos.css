@@ -1,0 +1,79 @@
+/* Seção Hero para a página de Estudo de Caso */
+
+.case-hero {
+    background-color: #0061A8;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+ }
+
+
+
+ .case-hero h2 {
+    font-size: 2.5rem;
+     
+ }
+ .container-header{
+   width: 100%;
+   display: flex;  
+   justify-content: space-between;
+   align-items: center;
+  
+ }
+ .container-logo-texto{
+   display: flex;
+   height: 70px;
+   margin-left: 20px;
+ }
+ .container-header h1{
+   margin-right: 10px;
+ }
+
+ .case-hero p {
+    font-size: 1.25rem;
+ }
+ .case-hero 
+ {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 200px;
+ }
+ 
+ .case-details .container{
+   justify-content: center;
+   align-items: center;
+ 
+ }
+.to-home{
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+.to-home button{
+  height: 40px;
+  width: 78;
+  border: none ;
+}
+#button:hover{
+  border: 3px solid #007acc;
+  border-radius: 10px;
+  transition: 0.1s;
+}
+#button #link-to-home:hover{
+  background-color:  #055727;
+  transition: 0.4s;
+}
+
+
+
+@media (max-width: 768px) {
+  .container-header{
+    display: block;
+    justify-content: center;
+  }
+}
+ /*responsividade estudo de casos */
+

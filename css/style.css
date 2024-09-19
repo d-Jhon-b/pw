@@ -1,0 +1,220 @@
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #001f3f;
+  color: white;
+}
+
+.hero img {
+  max-width: 50%;
+  height: auto;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h2 {
+  margin-left: 10px;
+  font-family: 'Lato', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-left: 20px;
+}
+
+
+/* .container{
+  display: flexbox;
+  justify-content: center;
+  
+} */
+/* About Section */
+.about {
+  padding: 50px;
+  text-align: center;
+}
+
+.about h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.about p {
+  font-size: 1.1rem;
+}
+
+/* Featured Section */
+.featured {
+  background-color: #f4f4f4;
+  padding: 50px;
+  text-align: center;
+}
+
+.featured h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.featured blockquote {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.featured #button-to-more {
+  padding: 10px 20px;
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.featured #button-to-more #link-to-more{
+  text-decoration: none;
+}
+.featured #button-to-more:hover {
+  background-color: #007acc;
+  transition: 0.1s;
+  border: 3px solid  #001f3f;
+
+}
+
+
+/* Seção de Detalhes do Caso */
+.case-details {
+   padding: 40px 0;
+}
+.case-details h3 {
+   font-size: 1.8rem;
+   color: #0061A8;
+   margin-bottom: 10px;
+}
+.case-details p {
+   font-size: 1.1rem;
+   color: #333;
+   margin-bottom: 20px;
+}
+.case-details ul {
+   list-style: disc;
+   margin-left: 20px;
+}
+.case-details ul li {
+   margin-bottom: 10px;
+}
+.case-details .to-home #link-to-home {
+   background-color: #00C853;
+   color: white;
+   padding: 10px 20px;
+   text-decoration: none;
+   border-radius: 5px;
+   margin-top: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #001f3f;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-links a:hover {
+  color: #00aaff;
+}
+
+
+/* Media Queries para responsividade */ /* Ajustando o layout da seção hero */
+@media (max-width: 768px){
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero img {
+    max-width: 80%;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .hero-text h2 {
+    font-size: 2rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  /* Seção about e featured para telas menores */
+  .about, .featured {
+    padding: 30px;
+  }
+
+  .about h2, .featured h2 {
+    font-size: 1.5rem;
+  }
+
+  .featured blockquote {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Header ainda mais compacto */
+  header {
+    padding: 5px;
+  }
+
+  .logo h1 {
+    font-size: 1.5rem;
+  }
+
+  nav ul {
+    align-items: flex-start;
+  }
+
+  /* Hero text e imagem ajustados */
+  .hero-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .hero-text p {
+    font-size: 0.9rem;
+  }
+
+  /* Seções com menos padding para telas pequenas */
+  .about, .featured {
+    padding: 20px;
+  }
+
+  .about h2, .featured h2 {
+    font-size: 1.2rem;
+  }
+
+  .featured blockquote {
+    font-size: 0.9rem;
+  }
+}
