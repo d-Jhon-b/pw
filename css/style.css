@@ -87,6 +87,7 @@
 }
 .featured #button-to-more #link-to-more{
   text-decoration: none;
+  color: white;
 }
 .featured #button-to-more:hover {
   background-color: #007acc;
